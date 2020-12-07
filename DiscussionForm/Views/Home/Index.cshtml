@@ -1,0 +1,16 @@
+﻿<!-- Name - Manjinder Singh
+     Date - December 6, 2020
+     Course - NETD3202
+     Description - This is the index page of the website.
+-->
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Discussion Forms, a place to raise your voice</h1>
+
+    <a asp-action="AddTopic" class="btn-success">Start New Topic</a>
+    <a asp-action="TopicList" class="btn-danger">Check current Topics</a>
+
+</div>
